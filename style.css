@@ -3,16 +3,31 @@
     src: url(./fonts/Angkor-Regular.ttf);
 }
 
+header{
+    position: fixed;
+}
 .header-nav{
     position: absolute;
     display: flex;
+    justify-content: space-between;
     width: 100%;
     padding-top: 2%;
+    padding-left: 3vw;
+    padding-right: 3vw;
 }
 
 .header-nav img{
-    justify-content: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
 }
+
+.nav-circle{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
 .header-nav-list{
     display: flex;
     gap: 5vw;
@@ -59,4 +74,70 @@
     min-width: 15vw;
     text-align: center;
     font-weight: bold;
+}
+
+.green{
+    background-color:#515b2a;
+    color: rgb(223, 223, 132);
+    text-align: center;
+    padding: 11%;
+    margin-top: -20px;
+}
+
+.green-first-p{
+    font-family: "main-font";
+    font-size: clamp(20px, 2vw, 30px);
+    padding-bottom: 5%;
+}
+
+.green-second-p{
+    font-size: clamp(20px, 3vw, 50px);
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+.light-blue{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(183, 208, 221);
+    color: #515b2a;
+    padding-left: 3%;
+    min-height: ;
+}
+
+.light-blue h3{
+    font-size: clamp(25px, 3vw, 30px);
+    font-family: "main-font";
+    padding-top: 3%;
+}
+
+.light-blue-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.light-blue p{
+    font-size: clamp(25px, 3vw, 40px);
+    padding-right: 5%;
+    padding-bottom: 2vw;
+}
+
+.light-blue-img img{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.green-second{
+    background-color: #515b2a;
+    color: rgb(223, 223, 132);
+    margin-top: -3px;
+}
+
+.green-second-child{
+    display: flex;
+}
+.green-second-child-text{
+    display: flex;
+    flex-direction: column;
+
 }
