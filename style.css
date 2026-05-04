@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "main-font";
+    src: url(./fonts/Angkor-Regular.ttf);
+}
+
+.header-nav{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    padding-top: 2%;
+}
+
+.header-nav img{
+    justify-content: center;
+}
+.header-nav-list{
+    display: flex;
+    gap: 5vw;
+}
+.header-nav a{
+    color: white;
+    font-family: "main-font";
+}
+
+.main-photo{
+    width: 100%;
+    position: relative;
+    z-index: -1;
+}
+
+.blue h1{
+    position: absolute;
+    top: 10vw;
+    left: 3%;
+    color: rgb(223, 223, 132);
+    font-size: clamp(30px, 6vw, 90px);
+    font-family: "main-font";
+    line-height: 100px;
+}
+
+.blue p{
+    position: absolute;
+    top: 25vw;
+    left: 3%;
+    color: rgb(223, 223, 132);
+    font-family: "main-font";
+    line-height: 25px;
+
+}
+
+.blue a{
+    position: absolute;
+    top: 35vw;
+    left: 3%;
+    background-color: rgb(223, 223, 132);
+    color: rgb(52, 90, 52);
+    padding: 25px 25px;
+    border-radius: 30px;
+    min-width: 15vw;
+    text-align: center;
+    font-weight: bold;
+}
